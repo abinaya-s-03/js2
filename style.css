@@ -1,0 +1,74 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f2f2f2;
+}
+
+header {
+  background: #003366;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.filters {
+  padding: 15px;
+  text-align: center;
+}
+
+.filters input, select {
+  padding: 8px;
+  margin: 5px;
+}
+
+#events {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 6px;
+  background: #003366;
+  color: white;
+  border: none;
+}
+
+.pagination {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  background: #003366;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.social a {
+  color: white;
+  margin: 0 8px;
+}
